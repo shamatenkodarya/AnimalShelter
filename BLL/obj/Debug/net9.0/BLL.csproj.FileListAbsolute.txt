@@ -1,0 +1,30 @@
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\bin\Debug\net9.0\BLL.deps.json
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\bin\Debug\net9.0\BLL.dll
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\bin\Debug\net9.0\BLL.pdb
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\bin\Debug\net9.0\DAL.dll
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\bin\Debug\net9.0\DAL.pdb
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\obj\Debug\net9.0\BLL.csproj.AssemblyReference.cache
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\obj\Debug\net9.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\obj\Debug\net9.0\BLL.AssemblyInfoInputs.cache
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\obj\Debug\net9.0\BLL.AssemblyInfo.cs
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\obj\Debug\net9.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\obj\Debug\net9.0\BLL.csproj.Up2Date
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\obj\Debug\net9.0\BLL.dll
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\obj\Debug\net9.0\refint\BLL.dll
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\obj\Debug\net9.0\BLL.pdb
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\BLL\obj\Debug\net9.0\ref\BLL.dll
+U:\Kursach C#\курсовая\AnimalShelter\BLL\bin\Debug\net9.0\BLL.deps.json
+U:\Kursach C#\курсовая\AnimalShelter\BLL\bin\Debug\net9.0\BLL.dll
+U:\Kursach C#\курсовая\AnimalShelter\BLL\bin\Debug\net9.0\BLL.pdb
+U:\Kursach C#\курсовая\AnimalShelter\BLL\bin\Debug\net9.0\DAL.dll
+U:\Kursach C#\курсовая\AnimalShelter\BLL\bin\Debug\net9.0\DAL.pdb
+U:\Kursach C#\курсовая\AnimalShelter\BLL\obj\Debug\net9.0\BLL.csproj.AssemblyReference.cache
+U:\Kursach C#\курсовая\AnimalShelter\BLL\obj\Debug\net9.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+U:\Kursach C#\курсовая\AnimalShelter\BLL\obj\Debug\net9.0\BLL.AssemblyInfoInputs.cache
+U:\Kursach C#\курсовая\AnimalShelter\BLL\obj\Debug\net9.0\BLL.AssemblyInfo.cs
+U:\Kursach C#\курсовая\AnimalShelter\BLL\obj\Debug\net9.0\BLL.csproj.CoreCompileInputs.cache
+U:\Kursach C#\курсовая\AnimalShelter\BLL\obj\Debug\net9.0\BLL.csproj.Up2Date
+U:\Kursach C#\курсовая\AnimalShelter\BLL\obj\Debug\net9.0\BLL.dll
+U:\Kursach C#\курсовая\AnimalShelter\BLL\obj\Debug\net9.0\refint\BLL.dll
+U:\Kursach C#\курсовая\AnimalShelter\BLL\obj\Debug\net9.0\BLL.pdb
+U:\Kursach C#\курсовая\AnimalShelter\BLL\obj\Debug\net9.0\ref\BLL.dll

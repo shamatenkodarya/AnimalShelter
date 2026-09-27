@@ -1,0 +1,24 @@
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\DAL\bin\Debug\net9.0\DAL.deps.json
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\DAL\bin\Debug\net9.0\DAL.dll
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\DAL\bin\Debug\net9.0\DAL.pdb
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\DAL\obj\Debug\net9.0\DAL.csproj.AssemblyReference.cache
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\DAL\obj\Debug\net9.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\DAL\obj\Debug\net9.0\DAL.AssemblyInfoInputs.cache
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\DAL\obj\Debug\net9.0\DAL.AssemblyInfo.cs
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\DAL\obj\Debug\net9.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\DAL\obj\Debug\net9.0\DAL.dll
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\DAL\obj\Debug\net9.0\refint\DAL.dll
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\DAL\obj\Debug\net9.0\DAL.pdb
+C:\Users\as_ko\Desktop\Курсовые\Гомель\Даша\AnimalShelter\DAL\obj\Debug\net9.0\ref\DAL.dll
+U:\Kursach C#\курсовая\AnimalShelter\DAL\bin\Debug\net9.0\DAL.deps.json
+U:\Kursach C#\курсовая\AnimalShelter\DAL\bin\Debug\net9.0\DAL.dll
+U:\Kursach C#\курсовая\AnimalShelter\DAL\bin\Debug\net9.0\DAL.pdb
+U:\Kursach C#\курсовая\AnimalShelter\DAL\obj\Debug\net9.0\DAL.csproj.AssemblyReference.cache
+U:\Kursach C#\курсовая\AnimalShelter\DAL\obj\Debug\net9.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+U:\Kursach C#\курсовая\AnimalShelter\DAL\obj\Debug\net9.0\DAL.AssemblyInfoInputs.cache
+U:\Kursach C#\курсовая\AnimalShelter\DAL\obj\Debug\net9.0\DAL.AssemblyInfo.cs
+U:\Kursach C#\курсовая\AnimalShelter\DAL\obj\Debug\net9.0\DAL.csproj.CoreCompileInputs.cache
+U:\Kursach C#\курсовая\AnimalShelter\DAL\obj\Debug\net9.0\DAL.dll
+U:\Kursach C#\курсовая\AnimalShelter\DAL\obj\Debug\net9.0\refint\DAL.dll
+U:\Kursach C#\курсовая\AnimalShelter\DAL\obj\Debug\net9.0\DAL.pdb
+U:\Kursach C#\курсовая\AnimalShelter\DAL\obj\Debug\net9.0\ref\DAL.dll

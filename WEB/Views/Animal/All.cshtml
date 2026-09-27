@@ -1,0 +1,37 @@
+﻿@model IEnumerable<BLL.DTO.AnimalDTO>
+@{
+    ViewData["Title"] = "Все животные";
+}
+
+<div class="container mt-4">
+    <h2>Все животные</h2>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="row">
+            @foreach (var animal in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="data:image/jpeg;base64,@animal.PhotoBase64" class="card-img-top" alt="@animal.Name">
+                        <div class="card-body">
+                            <h5 class="card-title">@animal.Name</h5>
+                            <p class="card-text">
+                                Тип: @animal.Type<br>
+                                Возраст: @animal.Age лет<br>
+                                Пол: @animal.Gender
+                            </p>
+                            <a asp-action="Details" asp-route-id="@animal.Id" class="btn btn-primary">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            Пока нет животных в приюте. Проверьте позже.
+        </div>
+    }
+</div>

@@ -1,0 +1,65 @@
+﻿@model IEnumerable<BLL.DTO.AnimalDTO>
+@{
+    ViewData["Title"] = "Животные, доступные для усыновления";
+}
+
+<div class="container mt-4">
+    <h2><i class="bi bi-clipboard-check"></i> Животные, доступные для усыновления</h2>
+    <p>Выберите животное, чтобы оформить заявку на усыновление.</p>
+    <hr />
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            @foreach (var animal in Model.OrderBy(a => a.AdmissionDate))             
+            {
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        @if (!string.IsNullOrEmpty(animal.PhotoBase64))
+                        {
+                            <a asp-controller="Animal" asp-action="Details" asp-route-id="@animal.Id" class="text-decoration-none">
+                                <img src="data:image/*;base64,@animal.PhotoBase64" class="card-img-top" style="height: 250px; object-fit: cover;" alt="@animal.Name">
+                            </a>
+                        }
+                        else
+                        {
+                            <a asp-controller="Animal" asp-action="Details" asp-route-id="@animal.Id" class="text-decoration-none">
+                                <img src="~/images/placeholder.png" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Фото отсутствует">
+                            </a>
+                        }
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">
+                                <a asp-controller="Animal" asp-action="Details" asp-route-id="@animal.Id" class="text-decoration-none text-dark">
+                                    @animal.Name
+                                </a>
+                            </h5>
+                            <p class="card-text">
+                                @animal.Type, @animal.Age лет, @animal.Gender
+                                <br>
+                                <small class="text-muted">В приюте с @animal.AdmissionDate.ToString("dd.MM.yyyy")</small>
+                            </p>
+                            @*               *@
+                            <div class="mt-auto">
+                                @*                  *@
+                                <a asp-action="CreateAdoption" asp-route-animalId="@animal.Id" class="btn btn-success w-100">
+                                    <i class="bi bi-house-heart"></i> Оформить усыновление
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-footer text-muted text-center">
+                            <a asp-controller="Animal" asp-action="Details" asp-route-id="@animal.Id" class="btn btn-sm btn-outline-secondary">
+                                Подробнее <i class="bi bi-info-circle"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            <i class="bi bi-info-circle-fill"></i> В данный момент нет животных, доступных для усыновления.
+        </div>
+    }
+</div>

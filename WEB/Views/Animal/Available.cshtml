@@ -1,0 +1,72 @@
+﻿@model IEnumerable<BLL.DTO.AnimalDTO>
+@{
+    ViewData["Title"] = "Животные, ищущие дом";
+}
+
+<div class="container mt-4">
+    <h2><i class="bi bi-search-heart"></i> Животные, ищущие дом (@Model.Count())</h2>
+    <p>Эти замечательные питомцы ждут своих любящих хозяев!</p>
+    <hr />
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            @foreach (var animal in Model.OrderBy(a => a.AdmissionDate)) @*            *@
+            {
+                <div class="col">
+                    <div class="card h-100 shadow-sm animal-card">
+                        <a asp-action="Details" asp-route-id="@animal.Id" class="text-decoration-none">
+                            @if (!string.IsNullOrEmpty(animal.PhotoBase64))
+                            {
+                                <img src="data:image/*;base64,@animal.PhotoBase64" class="card-img-top animal-card-img" alt="@animal.Name">
+                            }
+                            else
+                            {
+                                <img src="~/images/placeholder.png" class="card-img-top animal-card-img" alt="Фото отсутствует">
+                            }
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">
+                                <a asp-action="Details" asp-route-id="@animal.Id" class="text-decoration-none text-dark stretched-link">
+                                    @animal.Name
+                                </a>
+                            </h5>
+                            <p class="card-text">
+                                @animal.Type, @animal.Age лет, @animal.Gender
+                            </p>
+                            <p class="card-text"><small class="text-muted">В приюте с @animal.AdmissionDate.ToString("dd.MM.yyyy")</small></p>
+                            @*                                    *@
+                        </div>
+                        @*                     *@
+                        @*    
+                                     
+                             
+                                                                                                                                                            *@
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info text-center">
+            <i class="bi bi-info-circle-fill"></i> Ура! Кажется, все наши питомцы нашли свой дом. Новые животные могут появиться скоро.
+        </div>
+    }
+</div>
+
+@*                     *@
+@section Styles {
+    <style>
+        .animal-card-img {
+            height: 250px;
+            object-fit: cover;                 
+        }
+
+        .animal-card:hover {
+            transform: scale(1.03);
+            transition: transform 0.2s ease-in-out;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+        }
+    </style>
+}

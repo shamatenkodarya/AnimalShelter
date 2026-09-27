@@ -1,0 +1,76 @@
+﻿@model WEB.Models.AdoptionViewModel
+@{
+    ViewData["Title"] = "Оформление усыновления";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h2 class="text-center mb-4">Оформление усыновления</h2>
+
+        <div class="card mb-4 shadow-sm">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    @if (!string.IsNullOrEmpty(Model.Animal?.PhotoBase64))
+                    {
+                        <img src="data:image/*;base64,@Model.Animal.PhotoBase64" class="img-fluid rounded-start" style="max-height: 200px; object-fit: cover; width: 100%;" alt="@Model.Animal.Name">
+                    }
+                    else
+                    {
+                        <img src="~/images/placeholder.png" class="img-fluid rounded-start" style="max-height: 200px; object-fit: cover; width: 100%;" alt="Фото отсутствует">
+                    }
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">@Model.Animal?.Name</h5>
+                        <p class="card-text">
+                            @Model.Animal?.Type, @Model.Animal?.Age месяцев, @Model.Animal?.Gender
+                        </p>
+                        <p class="card-text"><small class="text-muted">ID Животного: @Model.AnimalId</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+        <form asp-action="CreateAdoption" method="post">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="AnimalId" />                   
+
+            <div class="mb-3">
+                <label asp-for="AdopterFullName" class="form-label">ФИО усыновителя</label>
+                <input asp-for="AdopterFullName" class="form-control" />
+                <span asp-validation-for="AdopterFullName" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="AdopterContacts" class="form-label"></label>
+                <input asp-for="AdopterContacts" class="form-control" placeholder="Телефон или email" />
+                <span asp-validation-for="AdopterContacts" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Address" class="form-label">Адресс</label>
+                <textarea asp-for="Address" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="AdoptionDate" class="form-label">Дата усыновления</label>
+                <input asp-for="AdoptionDate" type="date" class="form-control" />
+                <span asp-validation-for="AdoptionDate" class="text-danger"></span>
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a asp-action="AvailableAnimals" class="btn btn-secondary me-md-2">Отмена</a>
+                <button type="submit" class="btn btn-primary"><i class="bi bi-check-lg"></i> Оформить</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

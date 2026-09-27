@@ -1,0 +1,260 @@
+﻿@using System.Text.Json
+@model WEB.Models.ManagerStatisticsViewModel
+@{
+    ViewData["Title"] = "Статистика приюта";
+    var dataAvailable = Model != null;          
+
+    string adoptionLabelsJson = "[]";
+    string adoptionDataJson = "[]";
+    string countsLabelsJson = "[]";
+    string countsDataJson = "[]";
+    string trendsLabelsJson = "[]";
+    string trendsDataJson = "[]";
+
+    if (dataAvailable)
+    {
+        if (Model.AdoptionReport?.AdoptionsByType != null && Model.AdoptionReport.AdoptionsByType.Any())
+        {
+            adoptionLabelsJson = JsonSerializer.Serialize(Model.AdoptionReport.AdoptionsByType.Keys);
+            adoptionDataJson = JsonSerializer.Serialize(Model.AdoptionReport.AdoptionsByType.Values);
+        }
+        if (Model.AnimalCountsByType != null && Model.AnimalCountsByType.Any())
+        {
+            countsLabelsJson = JsonSerializer.Serialize(Model.AnimalCountsByType.Keys);
+            countsDataJson = JsonSerializer.Serialize(Model.AnimalCountsByType.Values);
+        }
+        if (Model.AdmissionTrends != null && Model.AdmissionTrends.Any())
+        {
+            trendsLabelsJson = JsonSerializer.Serialize(Model.AdmissionTrends.Keys);
+            trendsDataJson = JsonSerializer.Serialize(Model.AdmissionTrends.Values);
+        }
+    }
+}
+@*                              *@
+@*                     *@
+
+
+<div class="container mt-4">
+    <h2 class="mb-4"><i class="bi bi-graph-up"></i> Статистика приюта</h2>
+
+    @if (dataAvailable)
+    {
+        <div class="row mb-4 text-center">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="bi bi-house-door"></i> В приюте сейчас</h5>
+                        <p class="display-4">@Model.TotalAnimalsInShelter</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="bi bi-house-heart"></i> Нашли дом (всего)</h5>
+                        <p class="display-4">@Model.TotalAdoptedAnimals</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="bi bi-calendar-check"></i> Усыновлено (за период)</h5>
+                        <p class="display-4">@(Model.AdoptionReport?.TotalAdoptions ?? 0)</p>
+                        @if (Model.AdoptionReport != null)
+                        {
+                            <small class="text-muted">с @Model.AdoptionReport.StartDate.ToString("dd.MM.yy") по @Model.AdoptionReport.EndDate.ToString("dd.MM.yy")</small>
+                        }
+                        else
+                        {
+                            <small class="text-muted">(нет данных)</small>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card shadow-sm h-100">
+                    <div class="card-header">
+                        Усыновления по типам животных (за @(Model.AdoptionReport != null ? (Model.AdoptionReport.EndDate - Model.AdoptionReport.StartDate).Days : 0) дней)
+                    </div>
+                    <div class="card-body">
+                        @if (Model.AdoptionReport?.AdoptionsByType != null && Model.AdoptionReport.AdoptionsByType.Any())
+                        {
+                            <canvas id="adoptionsByTypeChart"></canvas>
+                        }
+                        else
+                        {
+                            <p class="text-center text-muted fst-italic">Нет данных об усыновлениях за период.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <!-- График: Животные в приюте по типам -->
+            <div class="col-lg-6">
+                <div class="card shadow-sm h-100">
+                    <div class="card-header">
+                        Животные в приюте по типам (сейчас)
+                    </div>
+                    <div class="card-body">
+                        @if (Model.AnimalCountsByType != null && Model.AnimalCountsByType.Any())
+                        {
+                            <canvas id="countsByTypeChart"></canvas>
+                        }
+                        else
+                        {
+                            <p class="text-center text-muted fst-italic">Нет данных о животных в приюте.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <!-- График: Динамика поступлений -->
+            <div class="col-lg-12 mt-4">
+                <div class="card shadow-sm">
+                    <div class="card-header">
+                        Динамика поступлений животных (по месяцам)
+                    </div>
+                    <div class="card-body">
+                        @if (Model.AdmissionTrends != null && Model.AdmissionTrends.Any())
+                        {
+                            <canvas id="admissionTrendsChart"></canvas>
+                        }
+                        else
+                        {
+                            <p class="text-center text-muted fst-italic">Нет данных о поступлениях.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning">Не удалось загрузить данные для статистики.</div>
+    }
+
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+             if (!@dataAvailable.ToString().ToLower()) return;             
+
+            const chartColors = [
+                '#0d6efd', '#6f42c1', '#d63384', '#fd7e14', '#ffc107', '#198754', '#20c997', '#0dcaf0', '#6c757d', '#adb5bd'
+            ];
+            const hoverColors = chartColors.map(color => `${color}B3`);         
+
+            const adoptionsCtx = document.getElementById('adoptionsByTypeChart')?.getContext('2d');
+            const adoptionLabels = @Html.Raw(adoptionLabelsJson);
+            const adoptionData = @Html.Raw(adoptionDataJson);
+
+            if (adoptionsCtx && adoptionLabels.length > 0) {
+                new Chart(adoptionsCtx, {
+                    type: 'pie',
+                    data: {
+                        labels: adoptionLabels,
+                        datasets: [{
+                            label: 'Усыновления',
+                            data: adoptionData,
+                            backgroundColor: chartColors.slice(0, adoptionLabels.length),           
+                            hoverBackgroundColor: hoverColors.slice(0, adoptionLabels.length),
+                            borderColor: '#fff',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: {
+                                position: 'top',
+                            },
+                            title: {
+                                display: false           
+                            }
+                        }
+                    }
+                });
+            }
+
+             const countsCtx = document.getElementById('countsByTypeChart')?.getContext('2d');
+             const countsLabels = @Html.Raw(countsLabelsJson);
+             const countsData = @Html.Raw(countsDataJson);
+
+            if (countsCtx && countsLabels.length > 0) {
+                new Chart(countsCtx, {
+                    type: 'doughnut',         
+                    data: {
+                        labels: countsLabels,
+                        datasets: [{
+                             label: 'Животные в приюте',
+                            data: countsData,
+                            backgroundColor: chartColors.slice().reverse().slice(0, countsLabels.length),         
+                            hoverBackgroundColor: hoverColors.slice().reverse().slice(0, countsLabels.length),
+                            borderColor: '#fff',
+                            borderWidth: 1
+                        }]
+                    },
+                     options: {
+                        responsive: true,
+                         plugins: {
+                            legend: {
+                                position: 'top',
+                            },
+                            title: {
+                                display: false
+                            }
+                        }
+                    }
+                });
+            }
+
+            const trendsCtx = document.getElementById('admissionTrendsChart')?.getContext('2d');
+            const trendsLabels = @Html.Raw(trendsLabelsJson);
+            const trendsData = @Html.Raw(trendsDataJson);
+
+            if (trendsCtx && trendsLabels.length > 0) {
+                new Chart(trendsCtx, {
+                    type: 'line',
+                    data: {
+                        labels: trendsLabels,   
+                        datasets: [{
+                            label: 'Количество поступлений',
+                            data: trendsData,       
+                            fill: true,       
+                            borderColor: 'rgb(75, 192, 192)',     
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',     
+                            tension: 0.1     
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            y: {
+                                beginAtZero: true,           
+                                ticks: {
+                                     precision: 0
+                                }
+                            }
+                        },
+                         plugins: {
+                            legend: {
+                                display: true     
+                            },
+                            title: {
+                                display: false
+                            }
+                        }
+                    }
+                });
+            }
+
+        });
+    </script>
+}

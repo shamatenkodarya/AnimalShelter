@@ -1,0 +1,36 @@
+﻿@model BLL.DTO.ReviewDTO
+@{
+    ViewData["Title"] = $"Оставить отзыв о {ViewData["AnimalName"]}";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h2 class="text-center mb-4">Оставить отзыв о @ViewData["AnimalName"]</h2>
+
+        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+        <form asp-action="Create" method="post">
+            @Html.AntiForgeryToken()
+            @*                              *@
+            <input type="hidden" asp-for="AnimalId" />
+            <input type="hidden" asp-for="AnimalName" /> @*                     *@
+
+            <div class="mb-3">
+                <label asp-for="Content" class="form-label">Ваш отзыв:</label>
+                <textarea asp-for="Content" class="form-control" rows="5" placeholder="Поделитесь вашими впечатлениями..."></textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a asp-controller="Animal" asp-action="Details" asp-route-id="@Model.AnimalId" class="btn btn-secondary me-md-2">Отмена</a>
+                <button type="submit" class="btn btn-primary"><i class="bi bi-send"></i> Отправить отзыв</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

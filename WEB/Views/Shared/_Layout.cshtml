@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Приют для животных</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">          
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WEB.styles.css" asp-append-version="true" />          
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/logo.jpg" height="40" alt="Лого Приюта">             
+                    Приют "Добрый Друг"
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-lg-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Index">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Animal" asp-action="All">Все животные</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Animal" asp-action="Available">Ищут дом</a>
+                        </li>
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            @if (User.IsInRole("Visitor"))
+                            {
+                                <li class="nav-item">
+                                    @*                              *@
+                                    @*                     *@
+                                </li>
+                            }
+
+                            @if (User.IsInRole("Consultant"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-info" asp-controller="Consultant" asp-action="AvailableAnimals"><i class="bi bi-clipboard-check"></i> Оформить усыновление</a>
+                                </li>
+                                @*  
+                                                                                                                *@
+                            }
+
+                                
+                            @if (User.IsInRole("Manager"))
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-success" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="bi bi-kanban"></i> Управление приютом
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" asp-controller="Manager" asp-action="AnimalList"><i class="bi bi-list-ul"></i> Список животных</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Manager" asp-action="AddAnimal"><i class="bi bi-plus-circle"></i> Добавить животное</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" asp-controller="Manager" asp-action="Statistics"><i class="bi bi-graph-up"></i> Статистика и графики</a></li>
+                                    </ul>
+                                </li>
+                            }
+
+                                
+                            @if (User.IsInRole("Controller"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-warning" asp-controller="Controller" asp-action="AdoptionReport"><i class="bi bi-file-earmark-bar-graph"></i> Отчеты по усыновлениям</a>
+                                </li>
+                            }
+                                
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-danger" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="bi bi-people-fill"></i> Администрирование
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" asp-controller="Admin" asp-action="Users"><i class="bi bi-person-lines-fill"></i> Пользователи</a></li>
+                                        @*                        *@
+                                        @*               *@
+                                    </ul>
+                                </li>
+                            }
+                        }
+                        else   
+                        {
+                            <li class="nav-item">
+                                @*                        *@
+                                @*                     *@
+                            </li>
+                        }
+                    </ul>
+
+                    <partial name="_LoginPartial" />    
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+                
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    @TempData["SuccessMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    @TempData["ErrorMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+            @if (TempData["WarningMessage"] != null)
+            {
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    @TempData["WarningMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            @RenderBody()     
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted mt-auto py-1 bg-light">
+        <div class="container text-center">
+            &copy; @DateTime.Now.Year - Приют "Добрый Друг" - <a asp-area="" asp-controller="Home" asp-action="Privacy">Политика конфиденциальности</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+                 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+         
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<BLL.DTO.AnimalDTO>
+
+<div class="hero-section">
+    <div class="container text-center py-5">
+        <h1 class="display-4 mb-4">Найди своего друга!</h1>
+        <p class="lead">В нашем приюте более 200 животных ждут своих хозяев</p>
+        <a class="btn btn-primary btn-lg" asp-controller="Animal" asp-action="Available">Посмотреть доступных</a>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h2 class="mb-4">Последние добавленные</h2>
+    <div class="row">
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var animal in Model.Take(3))
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="data:image/jpeg;base64,@animal.PhotoBase64" class="card-img-top" alt="@animal.Name">
+                        <div class="card-body">
+                            <h5 class="card-title">@animal.Name</h5>
+                            <p class="card-text">
+                                Возраст: @animal.Age лет<br>
+                                Пол: @animal.Gender
+                            </p>
+                            <a asp-controller="Animal" asp-action="Details" asp-route-id="@animal.Id"
+                               class="btn btn-outline-primary">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12 text-center">
+                <p>На данный момент нет доступных животных.</p>
+            </div>
+        }
+    </div>
+</div>
+
+<section class="reviews-section bg-light py-5">
+    <div class="container">
+        <h2 class="mb-4">Последние отзывы</h2>
+        <div class="row">
+            @foreach (var review in ViewBag.RecentReviews)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">@review.UserName</h5>
+                            <p class="card-text">@review.Content</p>
+                            <small class="text-muted">@review.CreatedAt.ToString("d MMM yyyy")</small>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

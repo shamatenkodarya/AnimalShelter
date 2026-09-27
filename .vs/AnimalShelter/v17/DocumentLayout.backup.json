@@ -1,0 +1,1445 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\animal\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\animal\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\controller\\adoptionreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\controller\\adoptionreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\consultant\\availableanimals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\consultant\\availableanimals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\consultant\\createadoption.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\consultant\\createadoption.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\admin\\manageroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\admin\\manageroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\models\\animalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\models\\animalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\controllers\\consultantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\consultantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\repositories\\animalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\animalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\entities\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\iservices\\ianimalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\iservices\\ianimalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\dto\\animaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\dto\\animaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\animal\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\animal\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\animal\\available.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\animal\\available.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\viewcomponents\\recentreviewsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\viewcomponents\\recentreviewsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\entities\\animaldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\animaldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\dto\\animaltypereportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\dto\\animaltypereportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\report\\adoptions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\report\\adoptions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\controllers\\controllercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\controllercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\recentreviews\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\recentreviews\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\review\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\review\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\shared\\components\\recentreviews\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\shared\\components\\recentreviews\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\manager\\statistics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\manager\\statistics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\manager\\editanimal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\manager\\editanimal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\manager\\deleteanimal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\manager\\deleteanimal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\manager\\animallist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\manager\\animallist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\manager\\addanimal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\manager\\addanimal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\models\\managerstatisticsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\models\\managerstatisticsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\models\\controllerreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\models\\controllerreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\models\\adoptionreportfilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\models\\adoptionreportfilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\models\\adoptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\models\\adoptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\entities\\adoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\adoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\repositories\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\repositories\\ianimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\ianimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\repositories\\iadoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\iadoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\repositories\\adoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\adoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\entities\\vaccination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\vaccination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\entities\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\dal\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F97E4CD-C890-43C8-98C2-6BA7B3C2BF7C}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\services\\adoptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\services\\adoptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\iservices\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\iservices\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\iservices\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\iservices\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\iservices\\iadoptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\iservices\\iadoptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\dto\\vaccinationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\dto\\vaccinationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\dto\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\dto\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\dto\\animaldetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\dto\\animaldetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\dto\\adoptionreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\dto\\adoptionreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\bll\\dto\\adoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E498E0-5BCE-4296-BC37-5EA129A7B80C}|BLL\\BLL.csproj|solutionrelative:bll\\dto\\adoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\admin\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\admin\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\views\\shared\\components\\recentreviews\\default.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\views\\shared\\components\\recentreviews\\default.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|u:\\kursach c#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\animalshelter\\web\\viewcomponents\\recentreviewsviewcomponent.cs||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72A37441-78F6-4274-A214-324F6B78F0D8}|WEB\\WEB.csproj|solutionrelative:web\\viewcomponents\\recentreviewsviewcomponent.cs||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\as_ko\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u0413\u043E\u043C\u0435\u043B\u044C\\\u041B\u0435\u043D\u0430\\Cinema\\DAL\\Repositories\\IFilmRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\as_ko\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u0413\u043E\u043C\u0435\u043B\u044C\\\u041B\u0435\u043D\u0430\\Cinema\\BLL\\Interfaces\\IAdminService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnimalViewModel.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Models\\AnimalViewModel.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\AnimalViewModel.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Models\\AnimalViewModel.cs",
+              "RelativeToolTip": "WEB\\Models\\AnimalViewModel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:50:21.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateAdoption.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Consultant\\CreateAdoption.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Consultant\\CreateAdoption.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Consultant\\CreateAdoption.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Consultant\\CreateAdoption.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T20:51:33.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageRoles.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Admin\\ManageRoles.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Admin\\ManageRoles.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Admin\\ManageRoles.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Admin\\ManageRoles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T20:54:18.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AvailableAnimals.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Consultant\\AvailableAnimals.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Consultant\\AvailableAnimals.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Consultant\\AvailableAnimals.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Consultant\\AvailableAnimals.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T21:20:20.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdoptionReport.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Controller\\AdoptionReport.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Controller\\AdoptionReport.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Controller\\AdoptionReport.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Controller\\AdoptionReport.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAI0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T20:53:45.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "All.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Animal\\All.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Animal\\All.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Animal\\All.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Animal\\All.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T20:38:19.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConsultantController.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\ConsultantController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\ConsultantController.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\ConsultantController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\ConsultantController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAkwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:47:22.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AnimalController.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\AnimalController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\AnimalController.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\AnimalController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\AnimalController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T16:58:51.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WEB.csproj",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\WEB.csproj",
+              "RelativeDocumentMoniker": "WEB\\WEB.csproj",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\WEB.csproj",
+              "RelativeToolTip": "WEB\\WEB.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T14:54:34.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Entities\\Animal.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Animal.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Entities\\Animal.cs",
+              "RelativeToolTip": "DAL\\Entities\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T21:47:52.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DAL\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T21:53:22.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "BLL\\MappingProfile.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\MappingProfile.cs",
+              "RelativeToolTip": "BLL\\MappingProfile.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:59:36.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AnimalService.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\Services\\AnimalService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\AnimalService.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\Services\\AnimalService.cs",
+              "RelativeToolTip": "BLL\\Services\\AnimalService.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:46:30.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAnimalService.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\IServices\\IAnimalService.cs",
+              "RelativeDocumentMoniker": "BLL\\IServices\\IAnimalService.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\IServices\\IAnimalService.cs",
+              "RelativeToolTip": "BLL\\IServices\\IAnimalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:55:02.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AnimalDTO.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\AnimalDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTO\\AnimalDTO.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\AnimalDTO.cs",
+              "RelativeToolTip": "BLL\\DTO\\AnimalDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:47:35.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AnimalRepository.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\AnimalRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\AnimalRepository.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\AnimalRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\AnimalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:44:24.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\appsettings.json",
+              "RelativeDocumentMoniker": "DAL\\appsettings.json",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\appsettings.json",
+              "RelativeToolTip": "DAL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-04T21:52:44.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RecentReviewsViewComponent.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\ViewComponents\\RecentReviewsViewComponent.cs",
+              "RelativeDocumentMoniker": "WEB\\ViewComponents\\RecentReviewsViewComponent.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\ViewComponents\\RecentReviewsViewComponent.cs",
+              "RelativeToolTip": "WEB\\ViewComponents\\RecentReviewsViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:01:29.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Program.cs",
+              "RelativeDocumentMoniker": "WEB\\Program.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Program.cs",
+              "RelativeToolTip": "WEB\\Program.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAiwG0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:28:30.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\_ViewStart.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WEB\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T00:10:50.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\_ViewImports.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WEB\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T00:05:27.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Animal\\Details.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Animal\\Details.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Animal\\Details.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Animal\\Details.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAiwKkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T16:59:28.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Available.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Animal\\Available.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Animal\\Available.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Animal\\Available.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Animal\\Available.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T23:30:10.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AnimalDetails.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Entities\\AnimalDetails.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\AnimalDetails.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Entities\\AnimalDetails.cs",
+              "RelativeToolTip": "DAL\\Entities\\AnimalDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T21:48:08.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AnimalTypeReportDTO.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\AnimalTypeReportDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTO\\AnimalTypeReportDTO.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\AnimalTypeReportDTO.cs",
+              "RelativeToolTip": "BLL\\DTO\\AnimalTypeReportDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T01:03:22.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\AccountController.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T20:20:37.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T00:05:29.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Models\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\AccountViewModels.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Models\\AccountViewModels.cs",
+              "RelativeToolTip": "WEB\\Models\\AccountViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T20:21:14.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Adoptions.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Report\\Adoptions.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Report\\Adoptions.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Report\\Adoptions.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Report\\Adoptions.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T22:27:50.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T00:10:49.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T00:10:48.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T18:55:28.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Home\\Index.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T16:57:19.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T00:09:42.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Account\\Register.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T20:23:43.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Account\\Login.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T20:38:43.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\HomeController.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:35:31.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\ManagerController.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\ManagerController.cs",
+              "ViewState": "AgIAAJcBAAAAAAAAAAAUwBcBAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:48:06.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\ReportController.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:01:00.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ControllerController.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\ControllerController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\ControllerController.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\ControllerController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\ControllerController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T01:02:05.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\RecentReviews\\Default.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\RecentReviews\\Default.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\RecentReviews\\Default.cshtml",
+              "RelativeToolTip": "WEB\\Views\\RecentReviews\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T16:57:59.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Review\\Create.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Review\\Create.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Review\\Create.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Review\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T21:19:54.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Shared\\Components\\RecentReviews\\Default.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Shared\\Components\\RecentReviews\\Default.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Shared\\Components\\RecentReviews\\Default.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Shared\\Components\\RecentReviews\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:54:39.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Statistics.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Manager\\Statistics.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Manager\\Statistics.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Manager\\Statistics.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Manager\\Statistics.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T20:53:07.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EditAnimal.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Manager\\EditAnimal.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Manager\\EditAnimal.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Manager\\EditAnimal.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Manager\\EditAnimal.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAG8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T20:51:59.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DeleteAnimal.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Manager\\DeleteAnimal.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Manager\\DeleteAnimal.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Manager\\DeleteAnimal.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Manager\\DeleteAnimal.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T20:52:50.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AnimalList.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Manager\\AnimalList.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Manager\\AnimalList.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Manager\\AnimalList.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Manager\\AnimalList.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T00:48:46.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AddAnimal.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Manager\\AddAnimal.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Manager\\AddAnimal.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Manager\\AddAnimal.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Manager\\AddAnimal.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T22:51:00.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\ReviewController.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:00:10.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WEB\\Controllers\\AdminController.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WEB\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:19:04.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ManagerStatisticsViewModel.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Models\\ManagerStatisticsViewModel.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\ManagerStatisticsViewModel.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Models\\ManagerStatisticsViewModel.cs",
+              "RelativeToolTip": "WEB\\Models\\ManagerStatisticsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T20:49:28.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\ErrorViewModel.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WEB\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:05:16.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ControllerReportViewModel.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Models\\ControllerReportViewModel.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\ControllerReportViewModel.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Models\\ControllerReportViewModel.cs",
+              "RelativeToolTip": "WEB\\Models\\ControllerReportViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T20:49:41.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AdoptionReportFilterViewModel.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Models\\AdoptionReportFilterViewModel.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\AdoptionReportFilterViewModel.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Models\\AdoptionReportFilterViewModel.cs",
+              "RelativeToolTip": "WEB\\Models\\AdoptionReportFilterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T20:25:39.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AdoptionViewModel.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Models\\AdoptionViewModel.cs",
+              "RelativeDocumentMoniker": "WEB\\Models\\AdoptionViewModel.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Models\\AdoptionViewModel.cs",
+              "RelativeToolTip": "WEB\\Models\\AdoptionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T20:49:13.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Adoption.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Entities\\Adoption.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Adoption.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Entities\\Adoption.cs",
+              "RelativeToolTip": "DAL\\Entities\\Adoption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T21:48:20.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\UserRepository.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:18:07.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ReviewRepository.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\ReviewRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\ReviewRepository.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\ReviewRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\ReviewRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:33:00.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\IUserRepository.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:17:55.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "IReviewRepository.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\IReviewRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\IReviewRepository.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\IReviewRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\IReviewRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:45:15.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IAnimalRepository.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\IAnimalRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\IAnimalRepository.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\IAnimalRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\IAnimalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:44:13.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IAdoptionRepository.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\IAdoptionRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\IAdoptionRepository.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\IAdoptionRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\IAdoptionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:44:59.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "AdoptionRepository.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\AdoptionRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\AdoptionRepository.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Repositories\\AdoptionRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\AdoptionRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:56:42.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Vaccination.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Entities\\Vaccination.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Vaccination.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Entities\\Vaccination.cs",
+              "RelativeToolTip": "DAL\\Entities\\Vaccination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:49:28.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Review.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Review.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Entities\\Review.cs",
+              "RelativeToolTip": "DAL\\Entities\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:31:37.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Entities\\Enums.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Enums.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Entities\\Enums.cs",
+              "RelativeToolTip": "DAL\\Entities\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T21:48:42.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\ApplicationUser.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\DAL\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "DAL\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:09:43.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\UserService.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\Services\\UserService.cs",
+              "RelativeToolTip": "BLL\\Services\\UserService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:18:38.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\Services\\ReviewService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\ReviewService.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\Services\\ReviewService.cs",
+              "RelativeToolTip": "BLL\\Services\\ReviewService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:58:18.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\ReportService.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\Services\\ReportService.cs",
+              "RelativeToolTip": "BLL\\Services\\ReportService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAowGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:27:04.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "AdoptionService.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\Services\\AdoptionService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\AdoptionService.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\Services\\AdoptionService.cs",
+              "RelativeToolTip": "BLL\\Services\\AdoptionService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:46:42.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "BLL\\IServices\\IUserService.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\IServices\\IUserService.cs",
+              "RelativeToolTip": "BLL\\IServices\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:54:51.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "IReviewService.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\IServices\\IReviewService.cs",
+              "RelativeDocumentMoniker": "BLL\\IServices\\IReviewService.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\IServices\\IReviewService.cs",
+              "RelativeToolTip": "BLL\\IServices\\IReviewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:55:25.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\IServices\\IReportService.cs",
+              "RelativeDocumentMoniker": "BLL\\IServices\\IReportService.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\IServices\\IReportService.cs",
+              "RelativeToolTip": "BLL\\IServices\\IReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:32:00.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "IAdoptionService.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\IServices\\IAdoptionService.cs",
+              "RelativeDocumentMoniker": "BLL\\IServices\\IAdoptionService.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\IServices\\IAdoptionService.cs",
+              "RelativeToolTip": "BLL\\IServices\\IAdoptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T22:55:15.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "VaccinationDTO.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\VaccinationDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTO\\VaccinationDTO.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\VaccinationDTO.cs",
+              "RelativeToolTip": "BLL\\DTO\\VaccinationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T20:47:16.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTO\\UserDTO.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "BLL\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:48:13.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ReviewDTO.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\ReviewDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTO\\ReviewDTO.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\ReviewDTO.cs",
+              "RelativeToolTip": "BLL\\DTO\\ReviewDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:47:55.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "AnimalDetailsDTO.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\AnimalDetailsDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTO\\AnimalDetailsDTO.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\AnimalDetailsDTO.cs",
+              "RelativeToolTip": "BLL\\DTO\\AnimalDetailsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T20:46:46.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "AdoptionReportDTO.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\AdoptionReportDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTO\\AdoptionReportDTO.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\AdoptionReportDTO.cs",
+              "RelativeToolTip": "BLL\\DTO\\AdoptionReportDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:32:26.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "AdoptionDTO.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\AdoptionDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTO\\AdoptionDTO.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\BLL\\DTO\\AdoptionDTO.cs",
+              "RelativeToolTip": "BLL\\DTO\\AdoptionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:47:09.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\appsettings.json",
+              "RelativeDocumentMoniker": "WEB\\appsettings.json",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\appsettings.json",
+              "RelativeToolTip": "WEB\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-04T22:35:28.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Admin\\Users.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Admin\\Users.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T20:24:30.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "DeleteUser.cshtml",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Admin\\DeleteUser.cshtml",
+              "RelativeDocumentMoniker": "WEB\\Views\\Admin\\DeleteUser.cshtml",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Admin\\DeleteUser.cshtml",
+              "RelativeToolTip": "WEB\\Views\\Admin\\DeleteUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T20:54:29.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "WEB\\Views\\Account\\Login.cshtml.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "WEB\\Views\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T00:08:53.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Default.cshtml.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Shared\\Components\\RecentReviews\\Default.cshtml.cs",
+              "RelativeDocumentMoniker": "WEB\\Views\\Shared\\Components\\RecentReviews\\Default.cshtml.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\Views\\Shared\\Components\\RecentReviews\\Default.cshtml.cs",
+              "RelativeToolTip": "WEB\\Views\\Shared\\Components\\RecentReviews\\Default.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:08:32.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "RecentReviewsViewComponent.cs",
+              "DocumentMoniker": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\ViewComponents\\RecentReviewsViewComponent.cs",
+              "RelativeDocumentMoniker": "WEB\\ViewComponents\\RecentReviewsViewComponent.cs",
+              "ToolTip": "U:\\Kursach C#\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AnimalShelter\\WEB\\ViewComponents\\RecentReviewsViewComponent.cs",
+              "RelativeToolTip": "WEB\\ViewComponents\\RecentReviewsViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:51:46.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "IFilmRepository.cs",
+              "DocumentMoniker": "C:\\Users\\as_ko\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u0413\u043E\u043C\u0435\u043B\u044C\\\u041B\u0435\u043D\u0430\\Cinema\\DAL\\Repositories\\IFilmRepository.cs",
+              "ToolTip": "C:\\Users\\as_ko\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u0413\u043E\u043C\u0435\u043B\u044C\\\u041B\u0435\u043D\u0430\\Cinema\\DAL\\Repositories\\IFilmRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:06:53.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\as_ko\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u0413\u043E\u043C\u0435\u043B\u044C\\\u041B\u0435\u043D\u0430\\Cinema\\BLL\\Interfaces\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\as_ko\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\\u0413\u043E\u043C\u0435\u043B\u044C\\\u041B\u0435\u043D\u0430\\Cinema\\BLL\\Interfaces\\IAdminService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:02:26.289Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

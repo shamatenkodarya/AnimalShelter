@@ -1,0 +1,172 @@
+﻿@model BLL.DTO.AnimalDTO
+@using DAL.Entities; 
+@using System.Security.Claims 
+@{
+    ViewData["Title"] = $"Детали: {Model.Name}";
+    var reviews = ViewBag.Reviews as List<BLL.DTO.ReviewDTO> ?? new List<BLL.DTO.ReviewDTO>();
+    var canLeaveReview = User.Identity.IsAuthenticated && User.IsInRole("Visitor");
+    var canAdopt = User.Identity.IsAuthenticated && User.IsInRole("Consultant") && !Model.IsAdopted;
+    var canEdit = User.Identity.IsAuthenticated && User.IsInRole("Manager");
+}
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-md-5">
+            @if (!string.IsNullOrEmpty(Model.PhotoBase64))
+            {
+                <img src="data:image/*;base64,@Model.PhotoBase64" class="img-fluid rounded shadow-sm animal-details-img" alt="@Model.Name">
+            }
+            else
+            {
+                <img src="~/images/placeholder.png" class="img-fluid rounded shadow-sm animal-details-img" alt="Фото отсутствует">
+            }
+        </div>
+        <div class="col-md-7">
+            <h1 class="display-5">@Model.Name</h1>
+            <p class="lead">@Model.Type, @(Model.Gender == Gender.Мужской ? "мальчик" : "девочка"), @Model.Age @(Model.Age == 1 ? "год" : Model.Age > 1 && Model.Age < 5 ? "года" : "лет")</p>
+
+            <ul class="list-group list-group-flush mb-3">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Вес:
+                    <span class="badge bg-secondary rounded-pill">@Model.Weight кг</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Дата поступления:
+                    <span class="badge bg-secondary rounded-pill">@Model.AdmissionDate.ToString("dd.MM.yyyy")</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Статус:
+                    @if (Model.IsAdopted)
+                    {
+                        <span class="badge bg-success rounded-pill"><i class="bi bi-house-heart-fill"></i> Нашел дом</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-warning text-dark rounded-pill"><i class="bi bi-search-heart"></i> Ищет дом</span>
+                    }
+                </li>
+                @if (!string.IsNullOrWhiteSpace(Model.Details?.Breed))
+                {
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Порода:
+                        <span class="badge bg-info text-dark rounded-pill">@Model.Details.Breed</span>
+                    </li>
+                }
+                @if (!string.IsNullOrWhiteSpace(Model.Details?.Color))
+                {
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Окрас:
+                        <span class="badge bg-light text-dark rounded-pill">@Model.Details.Color</span>
+                    </li>
+                }
+            </ul>
+
+            <!-- Кнопки действий -->
+            <div class="mt-3">
+                @if (canAdopt)
+                {
+                    <a asp-controller="Consultant" asp-action="CreateAdoption" asp-route-animalId="@Model.Id"
+                       class="btn btn-success me-2"><i class="bi bi-clipboard-check"></i> Оформить усыновление</a>
+                }
+                @if (canEdit)
+                {
+                    <a asp-controller="Manager" asp-action="EditAnimal" asp-route-id="@Model.Id"
+                       class="btn btn-warning me-2"><i class="bi bi-pencil-square"></i> Редактировать</a>
+                    <a asp-controller="Manager" asp-action="DeleteAnimal" asp-route-id="@Model.Id"
+                       class="btn btn-danger"><i class="bi bi-trash3"></i> Удалить</a>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Детали и Прививки в Аккордеоне -->
+    <div class="accordion mb-4" id="animalExtraInfoAccordion">
+        @if (Model.Details != null && (!string.IsNullOrWhiteSpace(Model.Details.BehaviorDescription) || !string.IsNullOrWhiteSpace(Model.Details.HealthNotes)))
+        {
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingDetails">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDetails" aria-expanded="false" aria-controls="collapseDetails">
+                        <i class="bi bi-info-circle-fill me-2"></i> Дополнительная информация
+                    </button>
+                </h2>
+                <div id="collapseDetails" class="accordion-collapse collapse" aria-labelledby="headingDetails" data-bs-parent="#animalExtraInfoAccordion">
+                    <div class="accordion-body">
+                        @if (!string.IsNullOrWhiteSpace(Model.Details.BehaviorDescription))
+                        {
+                            <h5>Поведение:</h5>
+                            <p>@Model.Details.BehaviorDescription</p>
+                        }
+                        @if (!string.IsNullOrWhiteSpace(Model.Details.HealthNotes))
+                        {
+                            <h5>Заметки о здоровье:</h5>
+                            <p>@Model.Details.HealthNotes</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+
+        @if (Model.Vaccinations != null && Model.Vaccinations.Any())
+        {
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingVaccinations">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVaccinations" aria-expanded="false" aria-controls="collapseVaccinations">
+                        <i class="bi bi-shield-check me-2"></i> Прививки (@Model.Vaccinations.Count)
+                    </button>
+                </h2>
+                <div id="collapseVaccinations" class="accordion-collapse collapse" aria-labelledby="headingVaccinations" data-bs-parent="#animalExtraInfoAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            @foreach (var vacc in Model.Vaccinations.OrderByDescending(v => v.DateAdministered))
+                            {
+                                <li class="list-group-item">
+                                    @vacc.Name - @vacc.DateAdministered.ToString("dd.MM.yyyy")
+                                    @*  *@
+                                    @* @if(canEdit) { <button class="btn btn-sm btn-outline-danger float-end">X</button> } *@
+                                </li>
+                            }
+                        </ul>
+                        @*          *@
+                        @*  
+                          *@
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+
+    <div class="mt-5">
+        <h3><i class="bi bi-chat-left-text"></i> Отзывы (@reviews.Count)</h3>
+        @if (canLeaveReview)
+        {
+            <a asp-controller="Review" asp-action="Create" asp-route-animalId="@Model.Id" class="btn btn-outline-primary mb-3"><i class="bi bi-pencil"></i> Оставить отзыв</a>
+        }
+
+        @if (reviews.Any())
+        {
+            @foreach (var review in reviews.OrderByDescending(r => r.CreatedAt))
+            {
+                <div class="card mb-3 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title mb-0">@review.UserName</h5>
+                        <small class="text-muted">@review.CreatedAt.ToString("dd MMM yyyy, HH:mm")</small>
+                        <p class="card-text mt-2">@review.Content</p>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="alert alert-light">Пока нет отзывов об этом животном.</div>
+        }
+    </div>
+</div>
+
+<style>
+    .animal-details-img {
+        max-height: 450px;
+        object-fit: cover;
+        width: 100%;
+    }
+</style>

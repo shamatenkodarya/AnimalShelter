@@ -1,0 +1,4 @@
+java/out/
+java/test-data/
+data/
+*.tmp

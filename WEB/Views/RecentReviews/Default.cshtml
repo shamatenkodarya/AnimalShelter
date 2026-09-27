@@ -1,0 +1,14 @@
+﻿@model IEnumerable<BLL.DTO.ReviewDTO>
+
+@foreach (var review in Model)
+{
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">@review.UserName</h5>
+                <p class="card-text">@review.Content</p>
+                <small class="text-muted">@review.CreatedAt.ToString("d MMM yyyy")</small>
+            </div>
+        </div>
+    </div>
+}

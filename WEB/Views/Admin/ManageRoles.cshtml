@@ -1,0 +1,49 @@
+﻿@using BLL.DTO
+@model UserDTO
+@{
+    ViewData["Title"] = "Управление ролями";
+    var allRoles = ViewBag.AllRoles as List<string> ?? new List<string>();
+    var userRoles = Model.Roles ?? new List<string>();
+}
+
+<div class="container mt-4">
+    <h2><i class="bi bi-person-gear"></i> Управление ролями пользователя: @Model.FullName (@Model.Email)</h2>
+    <hr />
+
+    <form asp-action="UpdateRoles" asp-route-userId="@Model.Id" method="post">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="userId" value="@Model.Id" />
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Выберите роли для пользователя:</h5>
+                <div class="row">
+                    @foreach (var role in allRoles.OrderBy(r => r))
+                    {
+                        <div class="col-md-4 mb-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="roles" value="@role" id="role_@role"
+                                @(userRoles.Contains(role) ? "checked" : "") />
+                                <label class="form-check-label" for="role_@role">
+                                    @role
+                                </label>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mt-4 d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="submit" class="btn btn-primary"><i class="bi bi-save"></i> Сохранить роли</button>
+            <a asp-action="Users" class="btn btn-secondary">Отмена</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
